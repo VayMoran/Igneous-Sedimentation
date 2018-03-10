@@ -15,6 +15,14 @@ public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
 
+private slots:
+
+    void on_calculate_clicked();
+
+    void limestone();
+    void shale();
+    void sandstone();
+
 private:
     Ui::MainWindow *ui;
 };
